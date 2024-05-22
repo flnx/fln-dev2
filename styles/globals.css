@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p > code,
+ul li > code {
+  background: rgb(60, 63, 87);
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  border-radius: 2px;
+  color: #fff !important;
+  word-break: keep-all !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  border-radius: 3px !important;
+}
+
+code > strong,
+code > em,
+code > strong,
+code > i,
+code > i > strong {
+  color: #fff !important;
+}
+
+code::after,
+code::before {
+  content: none !important;
+}
+
+ul li > code {
+  content: none !important;
+}
+
+blockquote > *::after,
+blockquote > *::before {
+  content: none !important;
+}

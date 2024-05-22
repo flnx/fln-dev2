@@ -1,7 +1,9 @@
-import { Card, CardHeader, CardBody, Chip, Image } from '@nextui-org/react';
-import type { Blog as BlogProps } from '@/types/blogType';
-
 import Link from 'next/link';
+import { Card, CardHeader, CardBody } from '@nextui-org/card';
+import { Image } from '@nextui-org/image';
+import { Chip } from '@nextui-org/chip';
+
+import type { Blog as BlogProps } from '@/types/blogType';
 
 export const Blog = ({ blogData }: { blogData: BlogProps }) => {
   const { url, alt, width, height } = blogData.image;

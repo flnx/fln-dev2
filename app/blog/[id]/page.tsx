@@ -1,8 +1,10 @@
 import { getBlogArticle } from '@/app/api/strapi/blogs';
 import { Container } from '@/components/container/Container';
-import { Chip, Image } from '@nextui-org/react';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import { Chip } from '@nextui-org/chip';
+import { Image } from '@nextui-org/image';
+import clsx from 'clsx';
 
 type Props = {
   params: { id: string };
@@ -44,7 +46,7 @@ const BlogArticle = async ({ params }: Props) => {
     notFound();
   }
 
-  const { url, alt, width, height } = article.image
+  const { url, alt, width, height } = article.image;
 
   return (
     <Container>
@@ -53,7 +55,7 @@ const BlogArticle = async ({ params }: Props) => {
         <div className="flex justify-between">
           <time
             dateTime={article.date}
-            className="text-default-500 text-large font-semibold inline-block mb-10"
+            className="text-default-500 text-sm font-semibold inline-block mb-10"
           >
             {article.date}
           </time>
@@ -71,7 +73,12 @@ const BlogArticle = async ({ params }: Props) => {
       <article className="max-w-screen-md m-auto">
         <div
           dangerouslySetInnerHTML={{ __html: article.content }}
-          className="prose prose-lg break-words text-primary prose-headings:text-secondary prose-strong:text-primary dark:prose-blockquote:text-slate-300 bg-code dark:prose-a:text-blue-700"
+          className={clsx(
+            'prose prose-blockquote:font-normal prose-blockquote:prose-sm prose-code:font-mono',
+            'prose-headings:text-secondary prose-strong:text-secondary prose-strong:font-bold',
+            'break-words bg-code',
+            'dark:prose-blockquote:text-slate-100 dark:prose-a:text-primary dark:text-foreground',
+          )}
         />
       </article>
     </Container>

@@ -1,4 +1,6 @@
-import { Card, CardHeader, CardBody, Image, Chip } from '@nextui-org/react';
+import { Card, CardHeader, CardBody} from '@nextui-org/card';
+import { Chip } from '@nextui-org/chip';
+import { Image } from '@nextui-org/image';
 import { Blog } from '@/types/blogType';
 
 import Link from 'next/link';
