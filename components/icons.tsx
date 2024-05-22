@@ -222,11 +222,11 @@ export const AnchorIcon = ({ size = 18, width, height, ...props }: IconSvgProps)
       focusable="false"
       height={size || height}
       width={size || width}
-      shape-rendering="geometricPrecision"
+      shapeRendering="geometricPrecision"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
       viewBox="0 0 24 24"
       className="text-foreground"
       {...props}
@@ -268,30 +268,6 @@ export const LinkedInIcon = ({
 
 export const EmailIcon = ({ size = 24, width, height, ...props }: IconSvgProps) => {
   return (
-    // <svg
-    //   xmlns="http://www.w3.org/2000/svg"
-    //   version="1.1"
-    //   id="Layer_1"
-    //   viewBox="0 0 491.52 491.52"
-    //   width={24}
-    //   height={24}
-    // >
-    //   <rect y="85.914" fill="#F6C358" width="491.52" height="319.693" />
-    //   <polygon
-    //     fill="#FCD462"
-    //     points="245.76,217.258 491.52,405.604 0,405.604 "
-    //   />
-    //   <polygon
-    //     fill="#DC8744"
-    //     // fill="#222"
-    //     points="245.76,291.673 0,85.916 491.52,85.916 "
-    //   />
-    //   <polygon
-    //     fill="#FCD462"
-    //     points="245.76,274.261 0,85.916 491.52,85.916 "
-    //   />
-    // </svg>
-
     <svg
       height={size || height}
       width={size || width}
@@ -299,6 +275,8 @@ export const EmailIcon = ({ size = 24, width, height, ...props }: IconSvgProps) 
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 502.073 502.073"
+      className="p-1"
+      {...props}
     >
       <path
         fill="#FFD15C"

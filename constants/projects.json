@@ -1,0 +1,57 @@
+[
+  {
+    "name": "ArtSpaceHub",
+    "description": "AI Image generation - Turn Descriptions into Art",
+    "stack": [
+      "NextJS",
+      "Typescript",
+      "Tailwind",
+      "NextUI",
+      "Supabase",
+      "AI Driven Model"
+    ],
+    "live": "https://www.artspacehub.com",
+    "sourceCode": "",
+    "imageUrls": "/images/artspacehub.webp"
+  },
+  {
+    "name": "Where Do I Go",
+    "description": "Share and explore adventurous destinations around the globe",
+    "stack": ["React", "Express", "MongoDB", "Vitest", "Cloudinary"],
+    "live": "https://wheredoigo.onrender.com/",
+    "sourceCode": "https://github.com/flnx/wheredoigo",
+    "imageUrls": "/images/wheredoigo.webp"
+  },
+  {
+    "name": "Billionaire Cash Splash",
+    "description": "Pick a billionaire and turn spending into comedy",
+    "stack": ["React", "SCSS", "Typescript"],
+    "live": "https://billionaire-cash-splash.web.app/",
+    "sourceCode": "https://github.com/flnx/Billionaire-Cash-Splash/tree/main",
+    "imageUrls": "/images/billionaire.webp"
+  },
+  {
+    "name": "E-Bike World",
+    "description": "E-Bike Shop & Blog",
+    "stack": ["VanillaJS", "LitHTML", "BaaS", "PageJS"],
+    "live": "https://ebike-world.web.app/",
+    "sourceCode": "https://github.com/flnx/ebike-world",
+    "imageUrls": "/images/ebikeworld.webp"
+  },
+  {
+    "name": "Weather Forecast",
+    "description": "Multi language weather app",
+    "stack": ["VanillaJS", "LitHTML", "PageJS", "WeatherAPI", "Express"],
+    "live": "https://minimalistic-weather-forecast.onrender.com/",
+    "sourceCode": "https://github.com/flnx/Weather-App",
+    "imageUrls": "/images/weather.webp"
+  },
+  {
+    "name": "webdevkalo",
+    "description": "Personal Portfolio & Blog",
+    "stack": ["NextJS", "Typescript", "Resend", "NextUI", "Tailwind"],
+    "live": "https://webdevkalo.vercel.app",
+    "sourceCode": "https://github.com/flnx/fln-dev",
+    "imageUrls": "/images/flndev.webp"
+  }
+]

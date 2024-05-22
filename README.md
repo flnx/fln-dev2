@@ -1,53 +1,54 @@
-# Next.js & NextUI Template
+## [webdevkalo](https://webdevkalo.vercel.app/)
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+A space to showcase my portfolio, personal experiences, and some blog entries.
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+## Tech Stack
 
-## Technologies Used
+- **Framework**: [NextJS](https://nextjs.org/) (TS)
+- **Styling**: [NextUI](https://nextui.org/) + [Tailwind CSS](https://tailwindcss.com/)
+- **Database**: [Supabase](https://supabase.com/)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **Analytics**: [Vercel Analytics](https://vercel.com/analytics)
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## Usage License
 
-## How to Use
+1. I'm happy to share this code as a starting point for your own projects. However, please refrain from directly copying it.
+2. Acknowledging the original author is appreciated.
 
-### Use the template with create-next-app
+**Note**: Additionally, make sure to remove all personal information from the code before using it, such as images, projects, metadata, and so forth.
 
-To create a new project based on this template using `create-next-app`, run the following command:
+---
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
+### Screenshots
 
-### Install dependencies
+#### Homepage
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+|         Home page - Desktop         |         Home page - Mobile         |
+| :---------------------------------: | :--------------------------------: |
+| ![](./screenshots/home-desktop.png) | ![](./screenshots/home-mobile.png) |
 
-```bash
-npm install
-```
+---
 
-### Run the development server
+|         Home page projects - Desktop         |       Home page projects - Mobile        |
+| :------------------------------------------: | :--------------------------------------: |
+| ![](./screenshots/home-projects-desktop.png) | ![](./screenshots/home-projects-mobile.png) |
 
-```bash
-npm run dev
-```
+---
 
-### Setup pnpm (optional)
+|    Projects page projects - Desktop     |    Projects page projects - Mobile     |
+| :-------------------------------------: | :------------------------------------: |
+| ![](./screenshots/projects-desktop.png) | ![](./screenshots/projects-mobile.png) |
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+---
 
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
+|         Blog page - Desktop         |         Blog page - Mobile         |
+| :---------------------------------: | :--------------------------------: |
+| ![](./screenshots/blog-desktop.png) | ![](./screenshots/blog-mobile.png) |
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+---
 
-## License
+|         About page - Desktop         |         About page - Mobile         |
+| :----------------------------------: | :---------------------------------: |
+| ![](./screenshots/about-desktop.png) | ![](./screenshots/about-mobile.png) |
 
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+---

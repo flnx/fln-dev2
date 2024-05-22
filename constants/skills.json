@@ -1,0 +1,13 @@
+[
+  { "name": "HTML", "img": "" },
+  { "name": "CSS / SCSS", "img": "" },
+  { "name": "Tailwind", "img": "" },
+  { "name": "JS", "img": "" },
+  { "name": "React", "img": "" },
+  { "name": "Next.js", "img": "" },
+  { "name": "Express", "img": "" },
+  { "name": "MongoDB", "img": "" },
+  { "name": "Mongoose", "img": "" },
+  { "name": "Unit Testing", "img": "" },
+  { "name": "Git", "img": "" }
+]

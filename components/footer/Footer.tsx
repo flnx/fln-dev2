@@ -1,8 +1,5 @@
-import { Container } from '@/components/container/Container';
-// import { GithubIcon } from '../github-icon/GithubIcon';
-import { Card, CardHeader, CardBody, CardFooter } from '@nextui-org/card';
+import { Card, CardHeader, CardBody } from '@nextui-org/card';
 import { Divider } from '@nextui-org/divider';
-// import Link from 'next/link';
 
 import { AnchorIcon, EmailIcon, GithubIcon, LinkedInIcon } from '../icons';
 import { subtitle, title } from '../primitives';
@@ -44,7 +41,7 @@ export const Footer = () => {
               description={
                 'Feel free to reach out! Whether you have a project idea or a question.'
               }
-              Icon={() => EmailIcon({ width: 16, height: 16 })}
+              Icon={EmailIcon}
             />
           </Link>
         </div>
