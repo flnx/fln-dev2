@@ -1,13 +1,15 @@
 import '@/styles/globals.css';
 import { Metadata, Viewport } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 import clsx from 'clsx';
 
 import { Providers } from './providers';
+import { Navbar } from '@/components/navbar/Navbar';
+import { Footer } from '@/components/footer/Footer';
+import { Toaster } from 'react-hot-toast';
 
 import { siteConfig } from '@/config/site';
 import { fontSans } from '@/config/fonts';
-import { Navbar } from '@/components/navbar/Navbar';
-import { Footer } from '@/components/footer/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://webdevkalo.vercel.app'),
@@ -43,27 +45,28 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html suppressHydrationWarning lang="en">
       <body
         className={clsx(
           'min-h-screen bg-background font-sans antialiased overflow-x-hidden',
-          fontSans.variable
+          fontSans.variable,
         )}
       >
         <Providers themeProps={{ attribute: 'class', defaultTheme: 'dark' }}>
           <div className="relative flex flex-col h-screen">
             <Navbar />
-            <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow space-y-44">
-              {children}
-            </main>
+            <main>{children}</main>
+            <Toaster
+              toastOptions={{
+                style: { fontSize: '0.8125rem' },
+              }}
+            />
+            <div className="py-6" aria-hidden="true" />
             <Footer />
           </div>
+          <Analytics />
         </Providers>
       </body>
     </html>

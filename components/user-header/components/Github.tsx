@@ -1,5 +1,4 @@
-// import { GithubIcon } from '@/components/github-icon/GithubIcon';
-import { GithubIcon } from '@/components/github-icon/GithubIcon';
+import { GithubIcon } from '@/components/icons';
 import Link from 'next/link';
 
 type GithubProps = {
@@ -13,10 +12,9 @@ export const Github = ({ link }: GithubProps) => {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex justify-center px-4 py-2 border border-gray-800 hover:border-white shadow-sm text-sm font-medium rounded-md text-white font-mono bg-black focus:outline-none focus:ring-0 transition-all"
+        className="flex items-center justify-center px-4 py-2 border border-gray-800 hover:border-white shadow-sm text-sm rounded-md text-white font-mono bg-black focus:outline-none focus:ring-0 transition-all"
       >
-        {/* <GithubLucideIcon size={28} className="rounded-full bg-white p-1" color='#222' fill="#000" /> */}
-        <GithubIcon />
+        <GithubIcon size={24} className="mr-3" />
         <span>View GitHub Profile</span>
       </Link>
     </div>

@@ -1,4 +1,4 @@
-import { Divider } from '@nextui-org/react';
+import { Divider } from '@nextui-org/divider';
 import { Skills } from './Skills';
 import { Metadata } from 'next';
 

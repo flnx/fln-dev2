@@ -5,5 +5,9 @@ type ContainerProps = {
 };
 
 export const Container = ({ children }: ContainerProps) => {
-  return <div className="lg:container mx-auto px-5">{children}</div>;
+  return (
+    <div className="container max-w-7xl px-6 flex-grow">
+      {children}
+    </div>
+  );
 };

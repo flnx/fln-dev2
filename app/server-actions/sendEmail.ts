@@ -4,14 +4,6 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-type Response = {
-  success: boolean;
-  data: {
-    path: string | number;
-    message: string;
-  }[];
-};
-
 type PrevState = {
   success: boolean;
   data: {
@@ -20,10 +12,7 @@ type PrevState = {
   }[];
 };
 
-export const sendEmail = async (
-  prevState: PrevState,
-  formData: FormData,
-): Promise<Response> => {
+export const sendEmail = async (prevState: PrevState, formData: FormData) => {
   const payload = Object.fromEntries(formData.entries());
   const result = contactFormSchema.safeParse(payload);
 
@@ -58,8 +47,7 @@ export const sendEmail = async (
       data: [
         {
           path: "serverError",
-          message:
-            "We're currently experiencing technical difficulties. Please try again later.",
+          message: "Something went wrong. Please try again later.",
         },
       ],
     };

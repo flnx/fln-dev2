@@ -10,7 +10,6 @@ import { Image } from '@nextui-org/image';
 import { title, subtitle } from '@/components/primitives';
 import { siteConfig } from '@/config/site';
 import { button as buttonStyles } from '@nextui-org/theme';
-import clsx from 'clsx';
 
 export const Showcase = () => {
   return (

@@ -1,3 +1,4 @@
+import { Divider } from '@nextui-org/divider';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -18,7 +19,7 @@ const About = () => {
     <section>
       <h1 className="text-2xl font-semibold mb-7">Hi there👋</h1>
       <article
-        className="max-w-screen-xs prose prose-p:text-primary"
+        className="prose prose-p:text-foreground"
         aria-label="about me"
       >
         <p>
@@ -32,7 +33,7 @@ const About = () => {
           Besides coding, you can also find me on the street running or in the gym.
         </p>
 
-        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+        <Divider />
 
         <p>
           <span className="font-semibold">PS: </span>I've recently decided to create a blog. I'll be sharing my knowledge on IT related topics and some of my challenges as a web developoer, hoping to provide helpful information and some insights. Not only that but also to elevate my own understanding to a more profound level.

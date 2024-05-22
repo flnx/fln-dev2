@@ -74,8 +74,8 @@ const BlogArticle = async ({ params }: Props) => {
         <div
           dangerouslySetInnerHTML={{ __html: article.content }}
           className={clsx(
-            'prose prose-blockquote:font-normal prose-blockquote:prose-sm prose-code:font-mono',
-            'prose-headings:text-secondary prose-strong:text-secondary prose-strong:font-bold',
+            'prose prose-blockquote:font-normal prose-blockquote:prose-sm prose-code:font-light',
+            'prose-headings:text-secondary prose-strong:text-secondary prose-strong:font-medium',
             'break-words bg-code',
             'dark:prose-blockquote:text-slate-100 dark:prose-a:text-primary dark:text-foreground',
           )}

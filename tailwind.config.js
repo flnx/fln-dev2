@@ -18,6 +18,25 @@ module.exports = {
       center: true,
       padding: '2rem',
     },
+    screens: {
+      // => @media (min-width: 640px) { ... }
+      xs: '530px',
+
+      sm: '640px',
+      // => @media (min-width: 640px) { ... }
+
+      md: '768px',
+      // => @media (min-width: 768px) { ... }
+
+      lg: '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      xl: '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
   },
   darkMode: 'class',
   plugins: [
@@ -25,31 +44,11 @@ module.exports = {
       themes: {
         light: {
           colors: {
-            background: '#f9f4ef', // or DEFAULT
-            // foreground: '#11181C', // or 50 to 900 DEFAULT
-            // warning: '#11181C', // or 50 to 900 DEFAULT
-            // primary: {
-            //   //... 50 to 900
-            //   foreground: '#FFFFFF',
-            //   DEFAULT: '#000',
-            // },
-            // ... rest of the colors
+            background: '#f9f4ef',
           },
         },
-        // dark: {
-        //   colors: {
-        //     background: '#000000', // or DEFAULT
-        //     foreground: '#ECEDEE', // or 50 to 900 DEFAULT
-        //     primary: {
-        //       //... 50 to 900
-        //       foreground: '#000',
-        //       DEFAULT: '#fff',
-        //     },
-        //   },
-        //   // ... rest of the colors
-        // },
       },
     }),
-    require("@tailwindcss/typography"),
+    require('@tailwindcss/typography'),
   ],
 };

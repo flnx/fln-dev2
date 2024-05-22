@@ -1,4 +1,4 @@
-import { Chip } from '@nextui-org/react';
+import { Chip } from '@nextui-org/chip';
 import skills from '@/constants/skills.json';
 
 type Skill = {
@@ -11,7 +11,7 @@ export const Skills = () => {
     <div className="flex flex-wrap gap-3 max-w-md">
       {skills.map((s: Skill) => (
         <Chip key={s.name} className="bg-slate-800 text-white">
-          <code className="font-semibold">{s.name}</code>
+          <code className="text-sm">{s.name}</code>
         </Chip>
       ))}
     </div>

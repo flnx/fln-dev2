@@ -8,8 +8,7 @@ export const personSchema: WithContext<Person> = {
   alternateName: 'webdevkalo',
   jobTitle: 'Web Developer',
   email: 'definitelywebdev@yahoo.com',
-  description:
-    'Web developer with a passion for building engaging interactive web applications and interactive experiences. Explore my portfolio and blog posts to learn more',
+  description: 'Web developer with a passion for building engaging interactive web applications and interactive experiences. Explore my portfolio and blog posts to learn more',
   knowsAbout: [
     'Web Development',
     'Frontend & Backend Development',
@@ -34,15 +33,14 @@ export const personSchema: WithContext<Person> = {
       url: 'https://softuni.bg/',
     },
   ],
-  url: 'https://www.webdevkalo.io/',
+  url: 'https://www.webdevkalo.vercel.app',
   sameAs: ['https://github.com/flnx'],
   image: '/images/me.jpg',
   worksFor: [
     {
       '@type': 'Project',
       name: 'Where Do I Go',
-      description:
-        'A platform for sharing and exploring adventurous destinations around the globe and more',
+      description: 'A platform for sharing and exploring adventurous destinations around the globe and more',
       url: 'https://wheredoigo.onrender.com/',
       subjectOf: {
         '@type': 'CreativeWork',
@@ -57,6 +55,26 @@ export const personSchema: WithContext<Person> = {
           'Mongoose',
           'Cloudinary',
           'Vitest',
+        ],
+      },
+    },
+    {
+      '@type': 'Project',
+      name: 'SpaceArtHub',
+      description:'AI Image Generator & AI Art Platform',
+      url: 'https://artspacehub.com/',
+      subjectOf: {
+        '@type': 'CreativeWork',
+        name: 'Technologies used',
+        description: 'A list of technologies used in the project',
+        sameAs: ["https://www.facebook.com/artspacehub"],
+        keywords: [
+          'NextJS',
+          'NextUI',
+          'Tailwind',
+          'Supabase',
+          'AI Driven Model',
+          'Typescript',
         ],
       },
     },
@@ -90,7 +108,7 @@ export const personSchema: WithContext<Person> = {
       '@type': 'Project',
       name: 'Simple Weather City Forecast',
       description: 'Minimalistic and simple city weather app',
-      url: 'https://weather-forecast-b59e4.web.app/',
+      url: 'https://minimalistic-weather-forecast.onrender.com/',
       subjectOf: {
         '@type': 'CreativeWork',
         name: 'Technologies used',
@@ -103,13 +121,13 @@ export const personSchema: WithContext<Person> = {
       '@type': 'Project',
       name: 'webdevkalo',
       description: 'Personal Portfolio & Blog',
-      url: 'https://weather-forecast-b59e4.web.app/',
+      url: 'https://webdevkalo.vercel.app',
       subjectOf: {
         '@type': 'CreativeWork',
         name: 'Technologies used',
         description: 'A list of technologies used in the project',
         keywords: ['NextJS', 'Typescript', 'NextUI', 'Tailwind', 'Resend'],
-        discussionUrl: 'https://github.com/flnx/fln-dev',
+        discussionUrl: 'https://github.com/flnx/fln-dev2',
       },
     },
   ],

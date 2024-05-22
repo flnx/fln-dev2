@@ -3,7 +3,7 @@ import { Card, CardHeader, CardBody } from '@nextui-org/card';
 import { Image } from '@nextui-org/image';
 import { Chip } from '@nextui-org/chip';
 
-import type { Blog as BlogProps } from '@/types/blogType';
+import type { Blog as BlogProps } from '@/types/Blog';
 
 export const Blog = ({ blogData }: { blogData: BlogProps }) => {
   const { url, alt, width, height } = blogData.image;
@@ -32,8 +32,8 @@ export const Blog = ({ blogData }: { blogData: BlogProps }) => {
             {blogData.description}
           </small>
           <div className="mt-auto flex justify-between w-full pb-2">
-            <time dateTime={blogData.date}>{blogData.date}</time>
-            <span>{blogData.readTime} min read</span>
+            <time dateTime={blogData.date} className="text-sm">{blogData.date}</time>
+            <span className="text-sm">{blogData.readTime} min read</span>
           </div>
         </CardBody>
       </Card>

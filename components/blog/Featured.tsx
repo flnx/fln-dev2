@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardBody} from '@nextui-org/card';
 import { Chip } from '@nextui-org/chip';
 import { Image } from '@nextui-org/image';
-import { Blog } from '@/types/blogType';
+import type { Blog } from '@/types/Blog';
 
 import Link from 'next/link';
 
@@ -30,8 +30,8 @@ export const FeaturedBlog = ({ blogData }: { blogData: Blog }) => {
             {blogData.description}
           </small>
           <div className="mt-auto flex justify-between w-full pb-2">
-            <time dateTime="20.02.2012">{blogData.date}</time>
-            <span>{blogData.readTime} min read</span>
+            <time dateTime="20.02.2012" className="text-sm">{blogData.date}</time>
+            <span className="text-sm">{blogData.readTime} min read</span>
           </div>
         </CardBody>
       </Card>

@@ -20,7 +20,7 @@ const Contact = () => {
     <section>
       <h1 className="text-2xl font-bold mb-4">Get in Touch</h1>
 
-      <div className="max-w-screen-xs prose prose-p:text-primary">
+      <div className="prose prose-p:text-foreground">
         <p>
           Feel free to reach out! Whether you have a project idea, a question, or
           just want to connect.
