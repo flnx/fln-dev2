@@ -1,0 +1,34 @@
+{
+  "overrides": [
+    {
+      "files": ["*.html", "*.css"],
+      "options": {
+        "printWidth": 100,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": false,
+        "jsxSingleQuote": false
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "printWidth": 85,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": true,
+        "jsxSingleQuote": true
+      }
+    },
+    {
+      "files": "*.tsx",
+      "options": {
+        "printWidth": 85,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": true,
+        "jsxSingleQuote": false
+      }
+    }
+  ]
+}
