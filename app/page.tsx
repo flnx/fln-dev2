@@ -4,7 +4,7 @@ import { Showcase } from '@/components/showcase/Showcase';
 import { Blog } from '@/components/blog/Blog';
 
 import { title } from '@/components/primitives';
-import { getLatestArticles } from './api/strapi/blogs';
+import { getLatestArticles } from './api/blogs';
 import projects from '@/constants/projects.json';
 
 import { personSchema } from '@/static/seo-schemas/personSchema';
@@ -14,11 +14,11 @@ export default async function Home() {
 
   return (
     <Container>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
       <div className="py-16 space-y-24 md:space-y-44">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
-        />
         <Showcase />
         <div>
           <h4

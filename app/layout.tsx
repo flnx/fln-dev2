@@ -63,7 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 style: { fontSize: '0.8125rem' },
               }}
             />
-            <div className="py-6" aria-hidden="true" />
+            <div className="my-6" aria-hidden="true" />
             <Footer />
           </div>
           <Analytics />

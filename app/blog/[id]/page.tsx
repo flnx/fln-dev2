@@ -1,4 +1,4 @@
-import { getBlogArticle } from '@/app/api/strapi/blogs';
+import { getBlogArticle } from '@/app/api/blogs';
 import { Container } from '@/components/container/Container';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';

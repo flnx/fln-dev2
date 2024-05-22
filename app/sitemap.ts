@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getBlogs } from "./api/strapi/blogs";
+import { getBlogs } from "./api/blogs";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const blogs = await getBlogs();
