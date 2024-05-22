@@ -32,7 +32,6 @@ export const Navbar = () => {
       maxWidth="xl"
       position="sticky"
       className="py-5"
-      shouldHideOnScroll
       isMenuOpen={isOpen}
       onMenuOpenChange={handleMenu}
     >
