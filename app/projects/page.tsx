@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import { Container } from '@/components/container/Container';
 import { Project } from '@/components/projects/Project';
 import { personSchema } from '@/static/seo-schemas/personSchema';
-
 import projects from '@/constants/projects.json';
 
 export const metadata: Metadata = {

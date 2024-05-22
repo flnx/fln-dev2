@@ -26,7 +26,8 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleMenu = (bool: boolean) => setIsOpen(bool);
   const isActive = (path: string) => path === pathname;
-  const activeClass = (path: string) => path === pathname ? 'text-primary' : 'foreground';
+  const activeClass = (path: string) =>
+    path === pathname ? 'text-primary' : 'foreground';
 
   return (
     <NextUINavbar
@@ -41,10 +42,7 @@ export const Navbar = () => {
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink
             aria-current={isActive('/') ? 'page' : false}
-            className={clsx(
-              'font-bold text-2xl text-inherit',
-              activeClass('/')
-            )}
+            className={clsx('font-bold text-2xl text-inherit', activeClass('/'))}
             href="/"
             onClick={() => handleMenu(false)}
           >
@@ -71,7 +69,7 @@ export const Navbar = () => {
                 className={clsx(
                   linkStyles({ color: 'foreground' }),
                   activeClass(item.href),
-                  'data-[active=true]:text-primary data-[active=true]:font-medium'
+                  'data-[active=true]:text-primary data-[active=true]:font-medium',
                 )}
                 color="foreground"
                 href={item.href}
