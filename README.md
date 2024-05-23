@@ -23,32 +23,38 @@ A space to showcase my portfolio, personal experiences, and some blog entries.
 
 #### Homepage
 
-|         Home page - Desktop         |         Home page - Mobile         |
-| :---------------------------------: | :--------------------------------: |
+|         Home page - Desktop          |         Home page - Mobile          |
+| :----------------------------------: | :---------------------------------: |
 | ![](./screenshots/home-desktop.webp) | ![](./screenshots/home-mobile.webp) |
 
 ---
 
-|         Home page projects - Desktop         |       Home page projects - Mobile        |
-| :------------------------------------------: | :--------------------------------------: |
+|         Home page projects - Desktop          |         Home page projects - Mobile          |
+| :-------------------------------------------: | :------------------------------------------: |
 | ![](./screenshots/home-projects-desktop.webp) | ![](./screenshots/home-projects-mobile.webp) |
 
 ---
 
-|    Projects page projects - Desktop     |    Projects page projects - Mobile     |
-| :-------------------------------------: | :------------------------------------: |
+|         Projects page - Desktop          |         Projects page - Mobile          |
+| :--------------------------------------: | :-------------------------------------: |
 | ![](./screenshots/projects-desktop.webp) | ![](./screenshots/projects-mobile.webp) |
 
 ---
 
-|         Blog page - Desktop         |         Blog page - Mobile         |
-| :---------------------------------: | :--------------------------------: |
+|         Blog page - Desktop          |         Blog page - Mobile          |
+| :----------------------------------: | :---------------------------------: |
 | ![](./screenshots/blog-desktop.webp) | ![](./screenshots/blog-mobile.webp) |
 
 ---
 
-|         About page - Desktop         |         About page - Mobile         |
-| :----------------------------------: | :---------------------------------: |
-| ![](./screenshots/about-desktop.png) | ![](./screenshots/about-mobile.png) |
+|         About page - Desktop          |         About page - Mobile          |
+| :-----------------------------------: | :----------------------------------: |
+| ![](./screenshots/about-desktop.webp) | ![](./screenshots/about-mobile.webp) |
+
+---
+
+|           Footer - Desktop            |           Footer - Mobile            |
+| :-----------------------------------: | :----------------------------------: |
+| ![](./screenshots/footer-desktop.webp) | ![](./screenshots/footer-mobile.webp) |
 
 ---
