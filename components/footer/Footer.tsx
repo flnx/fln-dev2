@@ -28,7 +28,7 @@ export const Footer = () => {
           </Link>
           <Link
             isExternal
-            href="https://www.linkedin.com/in/kaloyan-georgiev-a40674302/"
+            href="https://www.linkedin.com/in/kalo-georgiev/"
           >
             <FooterCard
               title={'LinkedIn'}

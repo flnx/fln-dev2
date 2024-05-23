@@ -34,7 +34,7 @@ export const personSchema: WithContext<Person> = {
     },
   ],
   url: 'https://www.webdevkalo.vercel.app',
-  sameAs: ['https://github.com/flnx'],
+  sameAs: ['https://github.com/flnx', 'https://linkedin.com/in/kalo-georgiev/'],
   image: '/images/me.jpg',
   worksFor: [
     {
