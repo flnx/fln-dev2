@@ -35,6 +35,7 @@ export const Navbar = () => {
       position="sticky"
       className="py-5"
       isMenuOpen={isOpen}
+      shouldHideOnScroll={false}
       onMenuOpenChange={handleMenu}
     >
       {/* Logo */}

@@ -25,25 +25,25 @@ A space to showcase my portfolio, personal experiences, and some blog entries.
 
 |         Home page - Desktop         |         Home page - Mobile         |
 | :---------------------------------: | :--------------------------------: |
-| ![](./screenshots/home-desktop.png) | ![](./screenshots/home-mobile.png) |
+| ![](./screenshots/home-desktop.webp) | ![](./screenshots/home-mobile.webp) |
 
 ---
 
 |         Home page projects - Desktop         |       Home page projects - Mobile        |
 | :------------------------------------------: | :--------------------------------------: |
-| ![](./screenshots/home-projects-desktop.png) | ![](./screenshots/home-projects-mobile.png) |
+| ![](./screenshots/home-projects-desktop.webp) | ![](./screenshots/home-projects-mobile.webp) |
 
 ---
 
 |    Projects page projects - Desktop     |    Projects page projects - Mobile     |
 | :-------------------------------------: | :------------------------------------: |
-| ![](./screenshots/projects-desktop.png) | ![](./screenshots/projects-mobile.png) |
+| ![](./screenshots/projects-desktop.webp) | ![](./screenshots/projects-mobile.webp) |
 
 ---
 
 |         Blog page - Desktop         |         Blog page - Mobile         |
 | :---------------------------------: | :--------------------------------: |
-| ![](./screenshots/blog-desktop.png) | ![](./screenshots/blog-mobile.png) |
+| ![](./screenshots/blog-desktop.webp) | ![](./screenshots/blog-mobile.webp) |
 
 ---
 
