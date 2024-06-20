@@ -15,6 +15,22 @@
     "imageUrls": "/images/artspacehub.webp"
   },
   {
+    "name": "Shrinkifier",
+    "description": "Image Compressor & Optimizer",
+    "stack": ["NextJS", "Typescript", "Sharp", "ShadCN", "Tailwind", "JSZip"],
+    "live": "https://shrinkifier.com",
+    "sourceCode": "https://github.com/flnx/shrinkifier",
+    "imageUrls": "/images/shrinkify.webp"
+  },
+  {
+    "name": "webdevkalo",
+    "description": "Personal Portfolio & Blog",
+    "stack": ["NextJS", "Typescript", "Resend", "NextUI", "Tailwind"],
+    "live": "https://webdevkalo.vercel.app",
+    "sourceCode": "https://github.com/flnx/fln-dev2",
+    "imageUrls": "/images/flndev.webp"
+  },
+  {
     "name": "Where Do I Go",
     "description": "Share and explore adventurous destinations around the globe",
     "stack": ["React", "Express", "MongoDB", "Vitest", "Cloudinary"],
@@ -45,13 +61,5 @@
     "live": "https://minimalistic-weather-forecast.onrender.com/",
     "sourceCode": "https://github.com/flnx/Weather-App",
     "imageUrls": "/images/weather.webp"
-  },
-  {
-    "name": "webdevkalo",
-    "description": "Personal Portfolio & Blog",
-    "stack": ["NextJS", "Typescript", "Resend", "NextUI", "Tailwind"],
-    "live": "https://webdevkalo.vercel.app",
-    "sourceCode": "https://github.com/flnx/fln-dev2",
-    "imageUrls": "/images/flndev.webp"
   }
 ]
