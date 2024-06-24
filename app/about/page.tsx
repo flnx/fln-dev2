@@ -36,11 +36,11 @@ const About = () => {
           time just for fun. I never thought I would get serious about it. I just
           wanted to build basic web pages and see how it's done out of curiosity. I
           had a lot of fun, and a few months later I decided to step up my game and
-          learn the basics of JavaScript.
+          learn JavaScript.
         </p>
 
         <p>
-          At the beggining of 2022 I decided to take a JavaScript module at{' '}
+          At the beggining of 2022 I took a JavaScript module at{' '}
           <Link href="https://softuni.bg/" isExternal>
             Softuni
           </Link>
