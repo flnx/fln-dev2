@@ -35,7 +35,7 @@ const About = () => {
           My journey started back in 2021 when I decided to learn HTML/CSS in my free
           time just for fun. I never thought I would get serious about it. I just
           wanted to build basic web pages and see how it's done out of curiosity. I
-          had a lot of fun, and 6-7 months later I decided to step up my game and
+          had a lot of fun, and a few months later I decided to step up my game and
           learn the basics of JavaScript.
         </p>
 
