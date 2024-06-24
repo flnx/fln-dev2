@@ -60,7 +60,7 @@ export const personSchema: WithContext<Person> = {
     },
     {
       '@type': 'Project',
-      name: 'SpaceArtHub',
+      name: 'ArtSpaceHub',
       description:'AI Image Generator & AI Art Platform',
       url: 'https://artspacehub.com/',
       subjectOf: {
@@ -93,28 +93,15 @@ export const personSchema: WithContext<Person> = {
     },
     {
       '@type': 'Project',
-      name: 'E-Bike World',
-      description: 'E-Bike Shop & Blog',
-      url: 'https://ebike-world.web.app/',
+      name: 'Shrinkifier',
+      description: 'Image compressor & optimizer',
+      url: 'https://shrinkifier.com/',
       subjectOf: {
         '@type': 'CreativeWork',
         name: 'Technologies used',
         description: 'A list of technologies used in the project',
-        keywords: ['VanillaJS', 'LitHTML', 'BaaS (back4app)', 'PageJS'],
+        keywords: ['NextJS', 'TypeScript', 'Sharp', 'ShadCN', 'Tailwind', 'JSZip'],
         discussionUrl: 'https://github.com/flnx/ebike-world',
-      },
-    },
-    {
-      '@type': 'Project',
-      name: 'Simple Weather City Forecast',
-      description: 'Minimalistic and simple city weather app',
-      url: 'https://minimalistic-weather-forecast.onrender.com/',
-      subjectOf: {
-        '@type': 'CreativeWork',
-        name: 'Technologies used',
-        description: 'A list of technologies used in the project',
-        keywords: ['VanillaJS', 'LitHTML', 'WeatherAPI', 'PageJS'],
-        discussionUrl: 'https://github.com/flnx/Weather-App',
       },
     },
     {
