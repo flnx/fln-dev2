@@ -6,44 +6,35 @@ import { subtitle, title } from '../primitives';
 import { Link } from '@nextui-org/link';
 import { IconSvgProps } from '@/types';
 import { FC } from 'react';
+import { siteConfig } from '@/config/site';
 
 export const Footer = () => {
   return (
     <footer className="pb-12 pt-24 my-12 text-small border-t border-divider">
-      {/* <Divider className="my-24" /> */}
       <div className="text-center mb-14">
         <h3 className={title({ size: 'sm' })}>Contact</h3>
         <p className={subtitle({ class: '!text-base' })}>You can find me on</p>
       </div>
       <div className="container mx-auto max-w-[400px] sm:max-w-screen-lg px-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 justify-center">
-          <Link isExternal href="https://github.com/flnx">
+          <Link isExternal href={siteConfig.links.github}>
             <FooterCard
-              title={'Github'}
-              description={
-                'Check my projects, report bugs, request features or contribute to a project.'
-              }
+              title="Github"
+              description="Check my projects, report bugs, request features or contribute to a project."
               Icon={GithubIcon}
             />
           </Link>
-          <Link
-            isExternal
-            href="https://www.linkedin.com/in/kalo-georgiev/"
-          >
+          <Link isExternal href={siteConfig.links.linkedIn}>
             <FooterCard
-              title={'LinkedIn'}
-              description={
-                "I'm still figuring out LinkedIn, but feel free to connect."
-              }
+              title="LinkedIn"
+              description="I'm still figuring out LinkedIn, but feel free to connect."
               Icon={LinkedInIcon}
             />
           </Link>
-          <Link href="mailto:definitelywebdev@yahoo.com">
+          <Link href={`mailto:${siteConfig.links.email}`}>
             <FooterCard
-              title={'Email'}
-              description={
-                'Feel free to reach out! Whether you have a project idea or a question.'
-              }
+              title="Email"
+              description="Feel free to reach out! Whether you have a project idea or a question."
               Icon={EmailIcon}
             />
           </Link>
