@@ -24,7 +24,7 @@ export const Project = ({
       <Card
         isBlurred
         isFooterBlurred
-        className="bg-[#8c7851]/10 dark:border-none dark:bg-default-100/50 shadow-md relative"
+        className="dark:border-none dark:bg-default-100/50 shadow-md relative"
         shadow="none"
       >
         <CardHeader className="flex-2">
