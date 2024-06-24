@@ -2,7 +2,7 @@
 
 A space to showcase my portfolio, personal experiences, and some blog entries.
 
-#### [webdevkalo v1](https://webdevkalo.vercel.app/) - old version
+#### [webdevkalo v1](https://github.com/flnx/fln-dev2) - old version
 
 ## Tech Stack
 
