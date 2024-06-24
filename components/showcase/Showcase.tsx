@@ -1,13 +1,14 @@
 'use client';
 
 // Components
-import { Link } from '@nextui-org/link';
+import { Link as NextUILink } from '@nextui-org/link';
 import { GithubIcon } from '@/components/icons';
 import { Image } from '@nextui-org/image';
 
 import { title, subtitle } from '@/components/primitives';
 import { siteConfig } from '@/config/site';
 import { button as buttonStyles } from '@nextui-org/theme';
+import Link from 'next/link';
 
 export const Showcase = () => {
   return (
@@ -56,24 +57,27 @@ const Buttons = () => {
   return (
     <div className="flex gap-3">
       <Link
-        isExternal
         className={buttonStyles({
           color: 'primary',
           radius: 'full',
           variant: 'shadow',
+          className: 'hover:bg-primary/90',
         })}
-        href={siteConfig.links.docs}
+        href="/projects"
       >
         Projects
       </Link>
-      <Link
+      <NextUILink
         isExternal
-        className={buttonStyles({ variant: 'bordered', radius: 'full' })}
+        className={buttonStyles({
+          variant: 'bordered',
+          radius: 'full',
+        })}
         href={siteConfig.links.github}
       >
         <GithubIcon size={20} />
         GitHub
-      </Link>
+      </NextUILink>
     </div>
   );
 };
