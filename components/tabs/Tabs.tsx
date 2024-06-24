@@ -14,17 +14,10 @@ export const Tabs = () => {
       radius="sm"
       fullWidth
       color="primary"
-      className="max-w-screen-md"
+      className="max-w-screen-sm"
       variant="light"
     >
-      <Tab key="/about" title="Profile" as={Link} href="/about" />
-
-      <Tab
-        key="/about/tech-background"
-        href="/about/tech-background"
-        title="Tech Background"
-        as={Link}
-      />
+      <Tab key="/about" title="About" as={Link} href="/about" />
       <Tab key="/about/contact" href="/about/contact" title="Contact" as={Link} />
     </TabsNext>
   );

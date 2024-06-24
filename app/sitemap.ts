@@ -14,7 +14,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "/projects",
     "/blog",
     "/about",
-    "/about/tech-background",
     "/about/contact",
   ].map((route) => ({
     url: `https://webdevkalo.vercel.app${route}`,

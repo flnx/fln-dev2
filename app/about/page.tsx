@@ -1,16 +1,19 @@
 import { Divider } from '@nextui-org/divider';
+import { Link } from '@nextui-org/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Frontend web developer with a passion for React, Next.js, and cool projects. Constantly learning and having fun. Explore my coding journey, along with my interests in running, fitness, and blogging about web development stuff and more!',
+  description:
+    'Frontend web developer with a passion for React, Next.js, and cool projects. Constantly learning and having fun. Explore my coding journey, along with my interests in running, fitness, and blogging about web development stuff and more!',
   openGraph: {
     title: 'About Kaloyan Georgiev',
-    description: "A web developer with a knack for building interesting things on the internet",
+    description:
+      'A web developer with a knack for building interesting things on the internet',
     siteName: 'webdevkalo',
     url: 'https://webdevkalo.vercel.app/about',
     type: 'profile',
-    locale: 'en-US'
+    locale: 'en-US',
   },
 };
 
@@ -18,25 +21,36 @@ const About = () => {
   return (
     <section>
       <h1 className="text-2xl font-semibold mb-7">Hi there👋</h1>
-      <article
-        className="prose prose-p:text-foreground"
-        aria-label="about me"
-      >
+      <article className="prose prose-p:text-foreground" aria-label="about me">
         <p>
-          I'm a web developer with a knack for building interesting things on the internet
-        </p>
-        <p>
-          I'm always seeking new ways to enhance my skills and the projects I work on. Each new pursuit is like a little adventure, filled with challenges to overcome and occasional unexpected twists. Still loving every minute of it. I remain committed to learning and delivering quality work.
+          I'm a web developer with a knack for building cool things on the internet.
         </p>
 
         <p>
-          Besides coding, you can also find me on the street running or in the gym.
+          I'm always seeking new ways to enhance my skills and the projects I work
+          on. I love challenging myself and learning new stuff every day.
+        </p>
+
+        <p>
+          My journey started back in 2021 when I decided to learn HTML/CSS in my free
+          time just for fun. I never thought I would get serious about it. I just
+          wanted to build basic web pages and see how it's done out of curiosity. I
+          had a lot of fun, and 6-7 months later I decided to step up my game and
+          learn the basics of JavaScript.
+        </p>
+
+        <p>
+          At the beggining of 2022 I decided to take a JavaScript module at{' '}
+          <Link href="https://softuni.bg/" isExternal>
+            Softuni
+          </Link>
+          , just to see if I would like it. It turned out I did...
         </p>
 
         <Divider />
 
         <p>
-          <span className="font-semibold">PS: </span>I've recently decided to create a blog. I'll be sharing my knowledge on IT related topics and some of my challenges as a web developoer, hoping to provide helpful information and some insights. Not only that but also to elevate my own understanding to a more profound level.
+          Besides coding, you can also find me on the street running or in the gym.
         </p>
       </article>
     </section>
