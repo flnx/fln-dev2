@@ -1,6 +1,8 @@
-## [webdevkalo](https://webdevkalo.vercel.app/)
+## [webdevkalo v2](https://webdevkalo.vercel.app/)
 
 A space to showcase my portfolio, personal experiences, and some blog entries.
+
+#### [webdevkalo v1](https://webdevkalo.vercel.app/) - old version
 
 ## Tech Stack
 
