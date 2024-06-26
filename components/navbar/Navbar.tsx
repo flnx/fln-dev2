@@ -62,7 +62,7 @@ export const Navbar = () => {
 
       {/* Desktop links */}
       <NavbarContent className="hidden sm:flex max-w-fit" justify="end">
-        <ul className="hidden sm:flex gap-4 justify-start ml-2">
+        <ul className="hidden sm:flex gap-6 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink

@@ -46,8 +46,7 @@ const Intro = () => {
       </h1>
 
       <p className={subtitle({ class: '!text-base' })}>
-        Creating and deploying interactive, mobile-friendly and accessible web
-        applications.
+        Creating interactive, mobile-friendly and accessible web applications.
       </p>
     </div>
   );
