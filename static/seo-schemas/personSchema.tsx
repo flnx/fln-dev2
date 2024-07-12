@@ -7,7 +7,7 @@ export const personSchema: WithContext<Person> = {
   familyName: 'Georgiev',
   alternateName: 'webdevkalo',
   jobTitle: 'Web Developer',
-  email: 'definitelywebdev@yahoo.com',
+  email: 'webdevkalo@gmail.com',
   description: 'Web developer with a passion for building engaging interactive web applications and interactive experiences. Explore my portfolio and blog posts to learn more',
   knowsAbout: [
     'Web Development',

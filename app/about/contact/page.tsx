@@ -4,10 +4,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Feel free to reach out! Whether you have a project idea, a question, or just want to connect. Drop me a message using the form below or shoot an email to definitelywebdev@yahoo.com. I look forward to hearing from you and exploring potential collaborations.',
+  description: 'Feel free to reach out! Whether you have a project idea, a question, or just want to connect. Drop me a message using the form below or shoot an email to webdevkalo@gmail.com. I look forward to hearing from you and exploring potential collaborations.',
     openGraph: {
       title: 'Contact Kaloyan Georgiev',
-      description: 'Feel free to reach me out at definitelywebdev@yahoo.com',
+      description: 'Feel free to reach me out at webdevkalo@gmail.com',
       siteName: 'webdevkalo',
       url: 'https://webdevkalo.vercel.app/about/contact',
       type: 'profile',
@@ -36,10 +36,10 @@ const Contact = () => {
           Email:
         </span>
         <Link
-          href="mailto:definitelywebdev@yahoo.com"
+          href="mailto:webdevkalo@gmail.com"
           className="text-pink-700 hover:text-primary-300 transition-all"
         >
-          definitelywebdev@yahoo.com
+          webdevkalo@gmail.com
         </Link>
       </div>
 

@@ -34,6 +34,6 @@ export const siteConfig = {
   links: {
     github: "https://github.com/flnx",
     linkedIn: "https://www.linkedin.com/in/kalo-georgiev/",
-    email: "definitelywebdev@yahoo.com",
+    email: "webdevkalo@gmail.com",
   },
 };
